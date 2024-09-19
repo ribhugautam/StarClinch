@@ -5,49 +5,49 @@ import singer1 from "../../public/singer1.png";
 function Header() {
   return (
     <header className="flex px-32 justify-evenly items-center w-full h-screen py-12 mx-auto">
-      <div className="relative ml-20 flex items-center h-full">
-        <h1 className="text-8xl tracking-wide absolute left-[-17rem] text-white">
+      <div className="relative ml-40 flex items-center justify-between gap-8 h-full">
+        <h1 className="text-8xl tracking-wide z-10 absolute left-[-17rem] text-white">
           Singers
         </h1>
-        <div className="flex flex-col items-center gap-4" >
-          <div className="aspect-square p-3 bg-gradient-to-br from-orange-500 to-pink-600 rounded-full ">
+        <div className="flex flex-col items-center gap-8">
+          <div className="aspect-square p-3 relative bg-gradient-to-br from-orange-500 to-pink-600 max-h-[40rem] min-h-[20rem] rounded-full ">
             <Image
               src={singer1}
-              className="rounded-full aspect-square"
+              className="rounded-full object-cover aspect-square"
               alt="singers"
-              width={750}
-              height={750}
             />
-          </div>
-          <span className="text-slate-600 text-lg ">Click here to view more</span>
-        </div>
-        <svg
-          className="absolute right-[0rem] rotate-[12deg] bottom-6"
-          width="236"
-          height="505"
-          viewBox="0 0 236 505"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0.581659 495.866C0.231294 497.201 1.02991 498.568 2.36543 498.918L24.129 504.628C25.4645 504.978 26.8312 504.18 27.1815 502.844C27.5319 501.509 26.7333 500.142 25.3977 499.791L6.05239 494.716L11.1275 475.371C11.4779 474.035 10.6793 472.669 9.34377 472.318C8.00826 471.968 6.64158 472.767 6.29121 474.102L0.581659 495.866ZM213.182 2.43707C234.239 54.5088 239.312 143.674 210.065 236.825C180.847 329.881 117.428 426.738 1.73851 494.342L4.26115 498.659C121.138 430.361 185.286 332.433 214.835 238.323C244.354 144.306 239.395 53.9214 217.818 0.562662L213.182 2.43707Z"
-            fill="url(#paint0_linear_3001_147)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_3001_147"
-              x1="269.94"
-              y1="31.2349"
-              x2="297.508"
-              y2="48.8324"
-              gradientUnits="userSpaceOnUse"
+            {/* <svg
+              className="absolute right-[-4rem] aspect-square max-h-[100%] bottom-0"
+              width="236"
+              height="505"
+              viewBox="0 0 236 505"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <stop stop-color="#727272" stop-opacity="0" />
-              <stop offset="0.742053" stop-color="#FF8DB9" />
-              <stop offset="1" stop-color="#F86E42" />
-            </linearGradient>
-          </defs>
-        </svg>
+              <path
+                d="M0.581659 495.866C0.231294 497.201 1.02991 498.568 2.36543 498.918L24.129 504.628C25.4645 504.978 26.8312 504.18 27.1815 502.844C27.5319 501.509 26.7333 500.142 25.3977 499.791L6.05239 494.716L11.1275 475.371C11.4779 474.035 10.6793 472.669 9.34377 472.318C8.00826 471.968 6.64158 472.767 6.29121 474.102L0.581659 495.866ZM213.182 2.43707C234.239 54.5088 239.312 143.674 210.065 236.825C180.847 329.881 117.428 426.738 1.73851 494.342L4.26115 498.659C121.138 430.361 185.286 332.433 214.835 238.323C244.354 144.306 239.395 53.9214 217.818 0.562662L213.182 2.43707Z"
+                fill="url(#paint0_linear_3001_147)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_3001_147"
+                  x1="269.94"
+                  y1="31.2349"
+                  x2="297.508"
+                  y2="48.8324"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#727272" stop-opacity="0" />
+                  <stop offset="0.742053" stop-color="#FF8DB9" />
+                  <stop offset="1" stop-color="#F86E42" />
+                </linearGradient>
+              </defs>
+            </svg> */}
+          </div>
+          <span className="text-slate-600 text-lg ">
+            Click here to view more
+          </span>
+        </div>
       </div>
       <div className="flex flex-col  gap-8">
         <h1 className="text-slate-400 text-6xl leading-tight ">

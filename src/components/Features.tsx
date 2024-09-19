@@ -38,52 +38,44 @@ function Features() {
 
       <div className="flex flex-row ml-[-38rem] pt-48 items-end gap-24" >
         <h3 className="text-5xl mb-8 " >Late Night Maggie<br/>Party for the boost</h3>
-        <div>
+        <div className="aspect-square max-h-[20rem]" >
         <Image
           className="aspect-square hover:rotate-0 transition-all duration-500 ease-linear border-2 border-gray-600 rounded-2xl rotate-12 object-fill "
           src={art}
           alt="singer"
-          width={350}
-          height={350}
         />
         </div>
       </div>
 
       <div className="flex flex-row pt-48 items-end gap-24" >
         <h3 className="text-5xl mb-8 " >Late Night Maggie<br/>Party for the boost</h3>
-        <div>
+        <div className="aspect-square max-h-[20rem]" >
         <Image
           className="aspect-square hover:rotate-0 transition-all duration-500 ease-linear border-2 border-gray-600 rounded-2xl rotate-12 object-fill "
           src={art}
           alt="singer"
-          width={350}
-          height={350}
         />
         </div>
       </div>
 
       <div className="flex flex-row ml-[-38rem] pt-48  items-end gap-24" >
         <h3 className="text-5xl mb-8 " >Late Night Maggie<br/>Party for the boost</h3>
-        <div>
+        <div className="aspect-square max-h-[20rem]" >
         <Image
           className="aspect-square hover:rotate-0 transition-all duration-500 ease-linear border-2 border-gray-600 rounded-2xl rotate-12 object-fill "
           src={art}
           alt="singer"
-          width={350}
-          height={350}
         />
         </div>
       </div>
 
       <div className="flex flex-row pt-48  items-end gap-24" >
         <h3 className="text-5xl mb-8 " >Late Night Maggie<br/>Party for the boost</h3>
-        <div>
+        <div className="aspect-square max-h-[20rem]" >
         <Image
           className="aspect-square hover:rotate-0 transition-all duration-500 ease-linear border-2 border-gray-600 rounded-2xl rotate-12 object-fill "
           src={art}
           alt="singer"
-          width={350}
-          height={350}
         />
         </div>
       </div>

@@ -164,40 +164,30 @@ function Team() {
 
       <Image
         src={singer1}
-        className="absolute right-24 bottom-0 rounded-full "
+        className="absolute right-24 max-h-[17rem] max-w-[17rem] aspect-square bottom-0 rounded-full "
         alt="singers"
-        width={250}
-        height={250}
       />
       <Image
         src={singer1}
-        className="absolute left-24 bottom-0 rounded-full "
+        className="absolute left-24 max-h-[17rem] max-w-[17rem] aspect-square bottom-0 rounded-full "
         alt="singers"
-        width={250}
-        height={250}
       />
 
       <Image
         src={singer1}
-        className="absolute right-[24rem] bottom-[28rem] rounded-full "
+        className="absolute right-[18rem] max-h-[17rem] max-w-[17rem] aspect-square bottom-[18rem] rounded-full "
         alt="singers"
-        width={250}
-        height={250}
       />
       <Image
         src={singer1}
-        className="absolute left-[24rem] bottom-[28rem] rounded-full "
+        className="absolute left-[18rem] max-h-[17rem] max-w-[17rem] aspect-square bottom-[18rem] rounded-full "
         alt="singers"
-        width={250}
-        height={250}
       />
 
       <Image
         src={singer1}
-        className="absolute top-28 rounded-2xl"
+        className="absolute top-28 max-h-[17rem] max-w-[17rem] aspect-square rounded-2xl"
         alt="singers"
-        width={280}
-        height={280}
       />
 
       <div className="absolute w-full bottom-0 h-[40rem] bg-gradient-to-t from-gray-950 to-transparent" />

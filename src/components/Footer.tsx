@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="relative h-screen w-full flex py-40 justify-center items-center">
-      <div className="flex flex-col gap-16 overflow-hidden justify-center items-center w-[80%] h-[90%] backdrop-blur-[70px] bg-black/15 rounded-full border border-b-0 border-l-0 border-gray-500">
+    <div className="relative h-full w-full flex py-40 justify-center items-center">
+      <div className="flex flex-col gap-16 overflow-hidden p-36 justify-center items-center w-[80%] h-full backdrop-blur-[70px] bg-black/15 rounded-full border border-b-0 border-l-0 border-gray-500">
         <h1 className="relative text-8xl">
           20+ Talented Folks
           <svg

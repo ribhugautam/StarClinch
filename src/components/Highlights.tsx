@@ -4,7 +4,7 @@ import singer1 from "../../public/image2.png";
 
 function Highlights() {
   return (
-    <div className="h-screen relative overflow-hidden w-full pt-36 flex flex-col gap-24 items-center">
+    <div className="h-full relative overflow-hidden w-full pt-36 flex flex-col gap-24 items-center">
       <svg
         className="absolute top-0 left-0 "
         width="833"
@@ -190,7 +190,7 @@ function Highlights() {
         </defs>
       </svg>
 
-      <h1 className="text-6xl">
+      <h1 className="text-6xl mt-10">
         Recent shows made star-
         <br />
         studded via StarClinch

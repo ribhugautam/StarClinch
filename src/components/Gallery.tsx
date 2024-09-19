@@ -4,7 +4,7 @@ import singer1 from "../../public/singer1.png";
 
 function Gallery() {
   return (
-    <div className="flex flex-col gap-24 overflow-hidden items-center py-24 px-36 w-full h-screen rounded-t-full border border-t-indigo-950 border-r-indigo-900 border-l-indigo-900 border-b-transparent shadow-[inset_0_42px_52px_rgba(0,0,0,0.6)]">
+    <div className="flex flex-col gap-24 overflow-hidden items-center py-24 px-36 w-full h-full rounded-t-full border border-t-indigo-950 border-r-indigo-900 border-l-indigo-900 border-b-transparent shadow-[inset_0_42px_52px_rgba(0,0,0,0.6)]">
       <div className="shadow-2xl flex flex-row gap-6 bg-[#0a0a14] rounded-full px-4 p-3">
         <h1 className="text-black cursor-pointer bg-zinc-300 py-1 text-3xl rounded-full px-4 ">Photos</h1>
         <h1 className="text-white cursor-pointer bg-zinc-900 py-1 text-3xl rounded-full px-4">Videos</h1>
