@@ -71,7 +71,7 @@ function Footer() {
         </div>
       </div>
       <div className="absolute brightness-50 bottom-24 blur-[1px] -translate-x-48 -z-10 left-0 bg-gradient-to-t from-pink-500 to-transparent rounded-r-full w-[30%] h-[60%] " />
-      <div className="absolute brightness-50 top-24 translate-x-48 blur-[1px] -z-10 right-0 rotate-180 bg-gradient-to-t from-pink-500 to-transparent rounded-r-full w-[30%] h-[60%] " />
+      <div className="absolute brightness-50 top-24 blur-[1px] -z-10 right-0 rotate-180 bg-gradient-to-t from-pink-500 to-transparent rounded-r-full w-[30%] h-[60%] " />
     </div>
   );
 }
